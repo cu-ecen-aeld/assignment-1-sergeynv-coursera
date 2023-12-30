@@ -5,6 +5,7 @@ on:
             - '*'
         branches:
             - '*'
+    workflow_dispatch:
 jobs:
     unit-test:
         container: cuaesd/aesd-autotest:unit-test
