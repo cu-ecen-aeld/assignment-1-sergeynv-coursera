@@ -25,7 +25,7 @@ done
 debug "===================================="
 
 if [ $# -ne 2 ]; then
-    echo "Expected exactly 2 arguments: <writefile> <writestr>. But received $#."
+    echo "Expected 2 arguments: <writefile> <writestr>. But received $#."
     exit 1
 fi
 
